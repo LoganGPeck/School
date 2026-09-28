@@ -23,7 +23,10 @@ public class BuddyInfo {
         return phoneNumber;
     }
 
-
+    @Override
+    public String toString() {
+        return "Name: " + name + " Address: " + address + " Phone Number: " + phoneNumber;
+    }
 
 
     static void main() {
